@@ -1,0 +1,52 @@
+.logo{
+    margin-left: 7%;
+    display: inline-block;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    margin-left: 42%;
+    display: inline-block;
+}
+
+.menu li{
+    margin-left: 40px;
+    display: inline-block;  
+    
+}
+
+.contact{
+    display: inline-block;
+    margin-left: 40px;
+    border: none;
+    height: 26px;
+    width: 80px;
+    border-radius: 13px;
+    background-color: rgba(16, 183, 239, 0.912);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.contact:hover{
+    background-color: white;
+    color: rgba(16, 183, 239, 0.912);
+}
+
+.menu li a{
+    text-decoration: none; 
+    color:white; 
+    font-size: 13px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.menu li a:hover{
+    color: aqua;
+}
+
+.nav-bar{
+    background-color: rgb(40, 40, 40);
+    padding-bottom: 4px;
+}
+
