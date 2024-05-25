@@ -3,16 +3,18 @@
     <head>
         <title>Project1</title>
         <link rel="stylesheet" href="project_1.css">
+        <script src="javascript.js"></script>
     </head>
     <body>
         <div class="nav-bar">
             <p class="logo"><strong>LOGOBAKERY</strong></p>
             <ul class="menu">
-                <li><a href="">Services</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="#" onclick="services()">Services</a></li>
+                <li><a href="#" onclick="projects()">Projects</a></li>
+                <li><a href="#" onclick="about()">About</a></li>
+                <li><button type="submit" class="contact" href="" onclick="contact()">Contact</button></li>
             </ul>
-            <button type="submit" class="contact" href="">Contact</button>
         </div>
+        <h1 id="display"></h1>
     </body>
 </html>
