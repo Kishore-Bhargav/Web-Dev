@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(215, 253, 253);
+}
+
 .logo{
     margin-left: 7%;
     display: inline-block;
@@ -18,7 +22,6 @@
 
 .contact{
     display: inline-block;
-    margin-left: 40px;
     border: none;
     height: 26px;
     width: 80px;
@@ -47,6 +50,12 @@
 
 .nav-bar{
     background-color: rgb(40, 40, 40);
-    padding-bottom: 4px;
 }
 
+#form{
+    margin-left: 20px;
+    padding: 10px;
+    background-color:beige;
+    display: inline-block;
+    display:none;
+}
