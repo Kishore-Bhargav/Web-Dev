@@ -13,3 +13,9 @@ function about(){
 function contact(){
     document.getElementById("display").textContent="Contact";
 }
+
+function Form(){
+    let form= document.getElementById("form");
+    form.style.display="inline-block";
+}
+
